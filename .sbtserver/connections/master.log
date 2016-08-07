@@ -1,0 +1,114 @@
+New log file opened at Sun Aug 07 15:57:04 BST 2016 by 1235@prasadsriramulas-MacBook-Pro.local
+Taking next connection to: 54875
+New client attempting to connect on port: 54876-54875
+  Address = /192.168.0.14:54875
+This client on port 54876 has uuid 8f62de53-4625-447f-a2c6-1ebf126fd6db configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8f62de53-4625-447f-a2c6-1ebf126fd6db
+Taking next connection to: 54875
+New client attempting to connect on port: 54877-54875
+  Address = /192.168.0.14:54875
+Handshake exception on socket: 54877
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 54875
+New client attempting to connect on port: 54878-54875
+  Address = /192.168.0.14:54875
+This client on port 54878 has uuid 732fd88e-4a47-46cd-b8dd-e3b5b301d5e1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8f62de53-4625-447f-a2c6-1ebf126fd6db, activator-732fd88e-4a47-46cd-b8dd-e3b5b301d5e1
+Taking next connection to: 54875
+New client attempting to connect on port: 54879-54875
+  Address = /192.168.0.14:54875
+Handshake exception on socket: 54879
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 54875
+New client attempting to connect on port: 54880-54875
+  Address = /192.168.0.14:54875
+This client on port 54880 has uuid 69121ccb-35d0-410c-9edf-184ed5cb2219 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8f62de53-4625-447f-a2c6-1ebf126fd6db, activator-732fd88e-4a47-46cd-b8dd-e3b5b301d5e1, activator-69121ccb-35d0-410c-9edf-184ed5cb2219
+Taking next connection to: 54875
+New client attempting to connect on port: 54904-54875
+  Address = /192.168.0.14:54875
+Handshake exception on socket: 54904
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 54875
+New client attempting to connect on port: 54905-54875
+  Address = /192.168.0.14:54875
+This client on port 54905 has uuid 894c215e-31c1-4798-8ed9-fade284d4e86 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-8f62de53-4625-447f-a2c6-1ebf126fd6db, activator-69121ccb-35d0-410c-9edf-184ed5cb2219, play-fork-run-894c215e-31c1-4798-8ed9-fade284d4e86
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+We have 2 non-daemon clients, continuing serving connections.
+Taking next connection to: 54875
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+1 daemon clients are connected.
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 1235@prasadsriramulas-MacBook-Pro.local logs at Sun Aug 07 16:43:26 BST 2016, goodbye.
